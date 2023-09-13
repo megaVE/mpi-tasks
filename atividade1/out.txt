@@ -1,0 +1,24 @@
+> SLAVE: Task received from slave nº1 with tag 2 and 1709 length
+> MASTER: 5 tasks created for 2 slaves to perform
+> MASTER: Slave nº1 will be assigned with task #0: a tag 2 task and a 1709 sized array
+> MASTER: Slave nº2 will be assigned with task #1: a tag 2 task and a 1008 sized array
+> SLAVE: Task received from slave nº2 with tag 2 and 1008 length
+> MASTER: 98.000000 result received from slave 1
+> MASTER: Slave nº1 will be assigned with task #2: a tag 2 task and a 1150 sized array
+> MASTER: 98.000000 result received from slave 2
+> MASTER: Slave nº2 will be assigned with task #3: a tag 1 task and a 1766 sized array
+> SLAVE: Slave nº2 obtained 98.000000 as the result of their task and sent back to master
+> SLAVE: Task received from slave nº2 with tag 1 and 1766 length
+> SLAVE: Slave nº1 obtained 98.000000 as the result of their task and sent back to master
+> SLAVE: Task received from slave nº1 with tag 2 and 1150 length
+> SLAVE: Slave nº2 obtained 49.096828 as the result of their task and sent back to master
+> MASTER: 98.000000 result received from slave 1
+> MASTER: Slave nº1 will be assigned with task #4: a tag 0 task and a 1261 sized array
+> MASTER: 49.096828 result received from slave 2
+> SLAVE: Slave nº1 obtained 98.000000 as the result of their task and sent back to master
+> SLAVE: Task received from slave nº1 with tag 0 and 1261 length
+> SLAVE: Slave nº1 obtained 59283.000000 as the result of their task and sent back to master
+> SLAVE: Slave n1 finished all their tasks. Shutting down...
+> MASTER: 59283.000000 result received from slave 1
+> MASTER: All tasks finished! Shutting down...
+> SLAVE: Slave n2 finished all their tasks. Shutting down...
