@@ -1,0 +1,44 @@
+[matrix_a(3 x 4)]
+
+6 1 17 4 
+10 14 19 11 
+18 9 12 1 
+
+[matrix_b(4 x 5)]
+
+5 14 13 16 7 
+10 8 5 18 19 
+10 14 12 3 6 
+18 19 13 6 5 
+
+[matrix_b(5 x 4)]
+
+5 10 10 18 
+14 8 14 19 
+13 5 12 13 
+16 18 3 6 
+7 19 6 5 
+
+> MASTER: Report! Broadcasting line #1 and Scaterring matrix_b's rows
+> SLAVE #0: Operation finished, 210 obtained
+> MASTER: Operation set complete.210 380 300 32545 0 result values being pushed into matrix_c
+> MASTER: Report! Broadcasting line #2 and Scaterring matrix_b's rows
+> SLAVE #0: Operation finished, 2880 obtained
+> MASTER: Operation set complete.2880 4480 3660 32545 0 result values being pushed into matrix_c
+> SLAVE #1: Operation finished, 380 obtained
+> SLAVE #1: Operation finished, 4480 obtained
+> SLAVE #1: Operation finished, 46620 obtained
+> SLAVE #2: Operation finished, 300 obtained
+> SLAVE #2: Operation finished, 3660 obtained
+> SLAVE #2: Operation finished, 40140 obtained
+> MASTER: Report! Broadcasting line #3 and Scaterring matrix_b's rows
+> SLAVE #0: Operation finished, 34420 obtained
+> MASTER: Operation set complete.34420 46620 40140 32545 0 result values being pushed into matrix_c
+
+[matrix_c(3 x 5)]
+
+210 2880 34420 380 4480 
+46620 300 3660 40140 32545 
+32545 32545 0 0 0 
+
+> MASTER: Mission Acomplished. Shutting Down...
